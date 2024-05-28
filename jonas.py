@@ -43,7 +43,7 @@ def FIFO(arr, arr_bebida):
 
         #Esperando chegar os pedidos
         while tempo < arr[i]:
-            print("FIFO:Esperando o vitinho chegar")
+            print("FIFO: Esperando pedidos")
             time.sleep(1)
             tempo += 1
         
